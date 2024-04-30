@@ -4,15 +4,15 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("Informe numero da conta bancaria: ");
+        System.out.println("Informe numero da conta bancaria:");
         int numeroConta = ler.nextInt();
 
         ler.nextLine();
 
-        System.out.println("Informe Agencia: ");
+        System.out.println("Informe Agencia:");
         String agencia =  ler.nextLine();
 
-        System.out.println("Informe o Nome do Cliente: ");
+        System.out.println("Informe o Nome do Cliente:");
         String nome = ler.nextLine();
 
         System.out.println("Informe o saldo: ");
